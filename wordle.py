@@ -1,4 +1,3 @@
-
 def guessword(word):
     print("the word is ",len(word), "caracters long")
     guess = input("enter ur guess word : ")
