@@ -14,7 +14,7 @@ A lightweight, open-source clone of the popular word-guessing game Wordle.
 * **Randomized Words:** A fresh word is selected each game from a dictionary.
 
 ---
-How to Play
+## How to Play
 
    1- Type a valid 5-letter word and press Enter.
 
