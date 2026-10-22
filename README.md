@@ -6,12 +6,10 @@ A lightweight, open-source clone of the popular word-guessing game Wordle.
 
 ## Features
 
-* **6 Tries:** Guess the hidden 5-letter word in 6 attempts or less.
 * **Color-Coded Feedback:**
   * **Green:** Correct letter in the correct position.
   * **Yellow:** Correct letter in the wrong position.
-  * **Gray:** Letter is not in the word.
-* **Randomized Words:** A fresh word is selected each game from a dictionary.
+  * **Red:** Letter is not in the word.
 
 ---
 ## How to Play
