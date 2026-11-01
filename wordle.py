@@ -1,3 +1,6 @@
+#I hope that i can make this code as clear as possible
+
+#Checking whether the user's guess is valid
 def guessword(word):
     print("the word is ",len(word), "caracters long")
     guess = input("enter ur guess word : ")
@@ -5,13 +8,10 @@ def guessword(word):
         guess = input("invalide length , please enter a word with the same length lenght : ")
     return guess.lower()
 
-
+#The core logic of the game
 def verify(word,guess):
-    """newword = ""
-    for i in range(len(word)):
-        newword = newword + word[i] + " "
-    newword = newword[:-1]"""
 
+    #Assigning a color to each guessed letter
     while True :
         score = 0
         guessindic = ""
@@ -34,6 +34,7 @@ def verify(word,guess):
                 else :
                     guessindic = guessindic + guess[i] + "(red)" + " "
 
+        #Printing the result after each guess
         if score == len(word):
             print(guessindic)
             print("-----------------success-----------------")
@@ -48,14 +49,14 @@ def verify(word,guess):
 
 
 
-
+#Main function
 def main ():
     
     word = "horse".lower()
     guess = guessword(word)
     verify(word,guess)
 
-
+#To stop the program from generating erros text lanes
 if __name__ == "__main__":
     try:
         main()
